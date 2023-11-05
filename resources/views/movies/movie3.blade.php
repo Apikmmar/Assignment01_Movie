@@ -7,7 +7,7 @@
 
 <div class>
     <div class="d-flex justify-content-center align-items-center">
-        <iframe width="1400" height="600" src="https://www.youtube.com/embed/RLtaA9fFNXU?si=XTYSwfAbaiA98JPW" 
+        <iframe width="1400" height="600" src="https://www.youtube.com/embed/zSWdZVtXT7E?si=tFT2HAyow8ewTf9v" 
         title="YouTube video player" frameborder="0" 
         allow="allowfullscreen" 
         allowfullscreen></iframe>
@@ -31,7 +31,7 @@
                     <span class="mt-3">Synopsis:</span>
                 </div>
                 <div class="col-md-10 d-flex flex-column">
-                    <span>The Prestige</span>
+                    <span>Interstellar</span>
                     <span class="mt-3">Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn</span>
                     <span class="mt-3">Sci-Fi, Drama, Adventure, Mystery</span>
                     <span class="mt-3">169 minutes</span>
