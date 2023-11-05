@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/biodata', function() {
+Route::get('/christophernolan', function() {
     return view('biodata');
+});
+
+Route::get('/prestige/detail', function() {
+    return view('movies/movie1');
+});
+
+Route::get('/inception/detail', function() {
+    return view('movies/movie2');
+});
+
+Route::get('/interstellar/detail', function() {
+    return view('movies/movie3');
 });

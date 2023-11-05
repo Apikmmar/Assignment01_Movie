@@ -1,11 +1,14 @@
-@extends('components/master')
+@extends('components.master')
+
+@section('title', 'Nolan Movies')
+@section('icon', asset('images/nolanis.webp'))
 
 @section('content')
 
-    <div class="container">
-        <div class="row mt-4">
-            <div class="col-md-3">
-                <a href="#" class="btn">
+    <div>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/prestige/detail" class="btn">
                     <div class="card mb-3">
                         <img src="{{ asset('images/theprestige2006.jpg') }}" class="card-img-top img-fluid" alt="_nolanmasterpiece">
                         <div class="card-body">
@@ -15,8 +18,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="#" class="btn">
+            <div class="col-md-4">
+                <a href="/inception/detail" class="btn">
                     <div class="card mb-3">
                         <img src="{{ asset('images/inception2010.jpg') }}" class="card-img-top img-fluid" alt="_nolanmasterpiece">
                         <div class="card-body">
@@ -26,8 +29,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="#" class="btn">
+            <div class="col-md-4">
+                <a href="/interstellar/detail" class="btn">
                     <div class="card mb-3">
                         <img src="{{ asset('images/interstellar2014.jpg') }}" class="card-img-top img-fluid" alt="_nolanmasterpiece">
                         <div class="card-body">
@@ -37,18 +40,8 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-3">
-                <a href="#" class="btn">
-                    <div class="card mb-3">
-                        <img src="{{ asset('images/tenet2020.jpg') }}" class="card-img-top img-fluid" alt="_nolanmasterpiece">
-                        <div class="card-body">
-                            <h5 class="card-title">Tenet (2020)</h5>
-                            <p class="card-text">"Tenet"  is a science fiction film written and directed by Christopher Nolan,.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
+    
 
 @endsection
