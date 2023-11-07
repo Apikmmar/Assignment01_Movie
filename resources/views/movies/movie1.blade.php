@@ -5,8 +5,10 @@
 
 @section('content')
     
+    {{-- container or division that is used to group other HTML elements --}}
     <div class>
         <div class="d-flex justify-content-center align-items-center">
+            {{-- to embed another document or webpage within the current document --}}
             <iframe width="1400" height="600" src="https://www.youtube.com/embed/RLtaA9fFNXU?si=XTYSwfAbaiA98JPW" 
             title="YouTube video player" frameborder="0" 
             allow="allowfullscreen" 
@@ -15,10 +17,12 @@
         <div class="mt-3">
             <div class="row">
                 <div class="col-md-4">
+                    {{-- used to embed images in a web page --}}
                     <img src="{{ asset('images/theprestige2006.jpg') }}" class="image-movie" alt="the_prestige">
                 </div>
                 <div class="col-md-8 d-flex">
                     <div class="col-md-2 fw-bold d-flex flex-column">
+                        {{-- inline container used to group and apply styles to a specific portion of text or other inline elements --}}
                         <span>Title:</span>
                         <span class="mt-3">Starring:</span>
                         <span class="mt-3">Genre:</span>
@@ -37,6 +41,7 @@
                         <span class="mt-3">130 minutes</span>
                         <span class="mt-3">English</span>
                         <span class="mt-3">
+                            {{-- use to create hyperlink --}}
                             <a href="/christophernolan">Christopher Nolan</a>
                         </span>
                         <span class="mt-3">Christopher Nolan, Jonathan Nolan</span>
